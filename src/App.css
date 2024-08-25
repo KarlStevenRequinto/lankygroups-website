@@ -5,7 +5,10 @@ body {
     font-family: "Inter",sans-serif;
 }
 
-@media (min-width: 768px) {
+header {
+    z-index: 10 !important;
+}
+/* @media (min-width: 768px) {
     .md\:flex {
         display: flex;
     }
@@ -13,4 +16,4 @@ body {
     .md\:bg-transparent {
         background-color: transparent;
     }
-}
+} */
