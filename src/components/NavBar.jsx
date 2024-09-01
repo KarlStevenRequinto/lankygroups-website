@@ -45,7 +45,7 @@ const NavBar = () => {
                                 spy={true}
                                 smooth={true}
                                 offset={-100}
-                                className="block text-base text-gray900 hover:text-brandPrimary first:font-medium"
+                                className="block text-base text-gray900 hover:text-brandPrimary first:font-medium cursor-pointer"
                             >
                                 {link}
                             </Link>
