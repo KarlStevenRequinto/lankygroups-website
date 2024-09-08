@@ -1,9 +1,9 @@
 import React from "react";
 import banner3 from "../assets/banner3.jpg";
-const Products = () => {
+const WhyTrustUs = () => {
     return (
         <div>
-            <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8" id="product">
+            <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8" id="whytrustus">
                 <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
                     <div>
                         <img src={banner3} alt="image" />
@@ -25,4 +25,4 @@ const Products = () => {
     );
 };
 
-export default Products;
+export default WhyTrustUs;

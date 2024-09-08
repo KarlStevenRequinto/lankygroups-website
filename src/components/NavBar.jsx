@@ -25,8 +25,8 @@ const NavBar = () => {
         { link: "Home", path: "home" },
         { link: "Service", path: "service" },
         { link: "About", path: "about" },
-        { link: "Product", path: "product" },
-        { link: "Testimonial", path: "testimonial" },
+        { link: "Why Trust Us", path: "whytrustus" },
+        // { link: "Testimonial", path: "testimonial" },
         { link: "FAQ", path: "faq" },
     ];
     return (
@@ -53,11 +53,11 @@ const NavBar = () => {
                     </ul>
 
                     <div className="space-x-12 hidden lg:flex items-center">
-                        <a href="/" className=" hidden lg:flex items-center hover:text-gray-900">
+                        {/* <a href="/" className=" hidden lg:flex items-center hover:text-gray-900">
                             Login
-                        </a>
+                        </a> */}
                         <button className="bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey">
-                            Sign up
+                            Book A Meeting
                         </button>
                     </div>
 
