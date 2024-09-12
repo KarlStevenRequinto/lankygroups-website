@@ -4,34 +4,52 @@ const Services = () => {
     const services = [
         {
             id: 1,
-            title: "Membership Organization",
-            description: "Our membership management software provides full automation of membership renewals and payments",
+            title: "Inbox Genius",
+            description: "Sophisticated email workflows that prioritize, automate, and respond faster than ever.",
             image: "/src/assets/services1.png",
         },
         {
             id: 2,
-            title: "National Associations",
-            description: "Our membership management software provides full automation of membership renewals and payments",
+            title: "Time Architecture",
+            description: "Custom-built schedules that optimize every minute of your day for peak productivity.",
             image: "/src/assets/services2.png",
         },
         {
             id: 3,
-            title: "Clubs And Groups",
-            description: "Our membership management software provides full automation of membership renewals and payments",
+            title: "Digital Presence Strategist",
+            description: "Expertly crafted social strategies that go beyond posting to build engagement ecosystems.",
+            image: "/src/assets/services3.png",
+        },
+        {
+            id: 4,
+            title: "Client Whisperer",
+            description: "Advanced CRM solutions that turn customer interactions into long-lasting relationships.",
+            image: "/src/assets/services3.png",
+        },
+        {
+            id: 5,
+            title: "Service Concierge",
+            description: "White-glove customer service that feels like luxury support for every interaction.",
+            image: "/src/assets/services3.png",
+        },
+        {
+            id: 6,
+            title: "Landing Page Specialist",
+            description: "Expertly designed landing pages that captivate visitors and convert them into loyal customers.",
             image: "/src/assets/services3.png",
         },
     ];
     return (
         <div className="md:px-14 py-16 max-w-screen-2xl mx-auto" id="service">
             <div className="text-center my-8">
-                <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">Our Clients</h2>
-                <p className="text-neutralGrey">We have been working with some Fortune 500+ clients</p>
+                {/* <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">Our Clients</h2>
+                <p className="text-neutralGrey">We have been working with some Fortune 500+ clients</p> */}
 
-                <div>images here</div>
+                {/* <div>images here</div> */}
 
-                <div className="mt-20 md:w-1/2 mx-auto text-center">
-                    <h2 className="text-4xl text-neutralDGrey font-semibold mb-3">Manage your entire community in a single system</h2>
-                    <p className="text-neutralGrey">Who is Lanky Groups suitable for?</p>
+                <div className="mt-20 md:w-3/4 mx-auto text-center bg-slate-200">
+                    <h2 className="text-4xl text-neutralDGrey font-semibold mb-3">Efficient, Reliable, and Professional</h2>
+                    <p className="text-neutralGrey">Expert support tailored to your business needs, freeing you to focus on growth.</p>
                 </div>
 
                 <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12">
