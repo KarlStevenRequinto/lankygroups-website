@@ -12,7 +12,7 @@ const About = () => {
                     <div className="md:w-3/5 mx-auto">
                         <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5">Redefining Premier Remote Support</h2>
                         <p className="md:w-3/4 text-sm text-neutralGrey mb-8">
-                            Lanky Nation Groups was founded with a mission to provide world-class virtual assistants and executive assistants to
+                            Lanky Groups was founded with a mission to provide world-class virtual assistants to
                             businesses around the world. Our team consists of experienced professionals, all based in the Philippines, who bring their
                             passion and dedication to every task.
                         </p>
@@ -27,7 +27,7 @@ const About = () => {
                         <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-2/3">
                             A Vision to <span className="text-brandPrimary">Transform Lives and Businesses</span>
                         </h2>
-                        <p className="md:w-3/4 text-sm text-neutralGrey mb-8">Our mission is to uplift Filipino professionals while helping businesses worldwide grow with world-class support.</p>
+                        <p className="md:w-3/4 text-sm text-neutralGrey mb-8">Our mission is to uplift Filipino professionals while helping businesses worldwide grow with top tier support.</p>
                     </div>
 
                     <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12">
